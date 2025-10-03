@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+  <h2>Document Uploaded</h2>
+  <p><strong>File:</strong> {{ filename }}</p>
+  <h5>Preview of Extracted Text:</h5>
+  <div class="p-3 border bg-light" style="white-space: pre-wrap;">
+    {{ text_preview }}...
+  </div>
+  <a href="{{ url_for('chat') }}" class="btn btn-success mt-3">Ask Questions</a>
+{% endblock %}

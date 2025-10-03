@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block content %}
+  <h2>Chat with your Document</h2>
+  <div class="card">
+    <div class="card-body">
+      <div id="chat-box" class="mb-3" style="height: 300px; overflow-y: auto; border:1px solid #ddd; padding:10px;">
+        <p class="text-muted">Start asking questions about your uploaded document...</p>
+      </div>
+      <form id="chat-form">
+        <div class="input-group">
+          <input type="text" id="query" name="query" class="form-control" placeholder="Ask something..." required>
+          <button class="btn btn-primary" type="submit">Send</button>
+        </div>
+      </form>
+    </div>
+  </div>
+{% endblock %}

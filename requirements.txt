@@ -1,0 +1,14 @@
+flask
+Werkzeug
+pytesseract
+opencv-python
+pillow
+numpy
+sqlalchemy
+sentence-transformers
+openai
+qdrant-client
+ollama
+faiss-cpu
+PyPDF2
+python-dotenv
