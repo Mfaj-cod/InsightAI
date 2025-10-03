@@ -22,7 +22,7 @@
     🌐 Frontend built with Flask templates (Bootstrap, JS, CSS)
 
 
-> Project Structure:-
+Project Structure:-
 
 InsightAI/
 │── app.py                # Flask app entry point
@@ -119,7 +119,7 @@ InsightAI/
     This project is licensed under the MIT License – feel free to use and modify it.
 
 
-> System design:-
+System design:-
 
 
                 ┌─────────────────────────┐
