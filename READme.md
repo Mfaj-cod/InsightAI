@@ -22,42 +22,6 @@
     🌐 Frontend built with Flask templates (Bootstrap, JS, CSS)
 
 
-Project Structure:-
-
-InsightAI/
-│── app.py                # Flask app entry point
-│── config.py             # Configuration settings
-│── requirements.txt      # Dependencies
-│── README.md             # Project documentation
-│
-├── modules/              
-│   ├── __init__.py
-│   ├── ocr.py            # OCR functions
-│   ├── chunking.py       # Text chunking
-│   ├── embeddings.py     # Embedding generation
-│   ├── vectorstore.py    # Vector DB operations
-│   ├── rag_pipeline.py   # RAG pipeline logic
-│   └── db.py             # SQLalchemy DB models
-│
-├── templates/           
-│   ├── base.html
-│   ├── index.html
-│   ├── docs.html
-│   └── chat.html
-│
-├── static/               
-│   ├── css/
-│   │   └── style.css
-│   ├── js/
-│   │   └── app.js
-│   └── uploads/          # Uploaded files
-│
-└── tests/                
-    ├── test_ocr.py
-    ├── test_embeddings.py
-    ├── test_vectorstore.py
-    └── test_rag_pipeline.py
-
 
 > Installation:-
 
