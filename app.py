@@ -54,7 +54,7 @@ def upload_file():
             doc_info = rag.ingest_image(
                 filepath,
                 filename=filename,
-                use_gvision=False  # True = Google Vision OCR
+                use_gvision=True  # True = Google Vision OCR
             )
             msg = f"Document ingested successfully. {doc_info['num_chunks']} chunks stored."
         except Exception as e:
